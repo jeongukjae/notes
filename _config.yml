@@ -15,7 +15,7 @@ url: https://notes.ukjae.io
 baseurl: ""
 paginate: 15
 
-permalink: /posts/:title/
+permalink: /posts/:year/:month/:title/
 version: v1.2.0
 kramdown:
   input: GFM
