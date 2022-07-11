@@ -1,0 +1,45 @@
+name: Ukjae Jeong - Notes
+description: 편하게 막 적는 노트
+
+footer-links:
+  email: jeongukjae@gmail.com
+  facebook: JeongUkJae
+  github: jeongukjae
+  linkedin: JeongUkJae
+  twitter: jeongukjae
+  rss: .
+
+google_analytics:
+
+url: https://notes.ukjae.io
+baseurl: ""
+paginate: 15
+
+permalink: /posts/:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .vscode
+  - .git
+  - .gitignore
+  - .DS_Store
+  - serve.sh
+  - .devcontainer
+  - check-images.py
